@@ -386,12 +386,15 @@ p {
 
 .footer-txt {
     padding: 1rem;
-}
-
-.footer-txt p {
-    padding: 0 0 1.2rem 0;
-    border: 0;
-    font-size: 0.8rem;
+    p {
+        padding: 0 0 1.2rem 0;
+        border: 0;
+        font-size: 0.8rem;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
 }
 
 
