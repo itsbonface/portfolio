@@ -19,11 +19,11 @@ window.onscroll = () => {
         let id = sec.getAttribute('id');
 
         if (top >= offset && top < offset + height) {
-            nav_links.forEach.apply(link => {
+            nav_links.forEach(link => {
                 link.classList.remove('active');
                 document.querySelector('header nav a[href="#' + id + '"]').classList.add('active');
             });
-        };
+        }
     });
 
     // sticky navbar
